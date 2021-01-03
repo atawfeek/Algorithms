@@ -1,5 +1,8 @@
 ﻿namespace algorithm
 {
+    /// <summary>
+    /// https://www.geeksforgeeks.org/quick-sort/
+    /// </summary>
     public static class QuickSort
     {
         public static void ExecuteQuickSort(int[] array)
