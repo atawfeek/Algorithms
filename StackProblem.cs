@@ -28,7 +28,7 @@ namespace algorithm
                 {
                     var lastElement = (char)stack.Pop();
                     if (!AreCorrectPairs(bracket, lastElement))
-                        stack.Push(bracket);
+                        return false;// stack.Push(bracket);
                 }
                 else
                     stack.Push(bracket);
